@@ -113,6 +113,7 @@ main {
 }
 
 main section {
+    background-color: red;
     flex-basis: calc(33.33% - 20px);
     margin-bottom: 20px;
 }
@@ -194,8 +195,85 @@ header h1 {
 
 /* ####################################################### */
 
-h1 
+.partem1
+{
+    background-color: green;
+    width: 100%;
+    height: 270px;
+}
+
+.titulo1 
 {
     text-align: center;
-    padding: 20px;
+    padding: 10px 0px;
 }
+
+.titulo1 .highlight {
+    color: #BEA0FF; /* Cambia este color al que prefieras */
+  }
+
+.boton {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #524870;
+    border: none;
+    color: white;
+    padding: 8px 0px 8px 15px;
+    width: 245px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 12px;
+}
+
+.boton span {
+    flex: 1;
+    text-align: left;
+    margin-left: 10px; 
+}
+
+.icons1{
+    margin-right: auto;
+}
+
+.icons2{
+    background-color: #7F56D9;
+    margin-left: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px 10px;
+    color: #ffd600;
+}
+
+.partem2
+{
+    background-color:red;
+    width: 100%;
+    height: 600px;
+}
+
+
+
+
+.partem3
+{
+    background-color:yellow;
+    width: 100%;
+    height: 350px;
+}
+
+
+
+
+
+
+
+
+  
+ 
+  
+  
+ 
