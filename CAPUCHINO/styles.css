@@ -7,9 +7,9 @@
 }
 
 body {
-    min-height: 100vh;
     margin: 0 auto;
     background-color: #2C1F4A;
+    width: 100%;
 }
 
 .name{
