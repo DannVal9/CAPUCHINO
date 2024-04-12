@@ -223,7 +223,7 @@ nav a:hover {
     margin-top: -125px;
     margin-left: 430px;
 }
-.part1{
+.part1D{
     color: #ffffff;
     display:block;
     font-family: Arial, Helvetica, sans-serif;
@@ -234,7 +234,7 @@ nav a:hover {
     margin-top: -10px;
     margin-left: 430px;
 }
-.part2{
+.part2D{
     color: #ffffff;
     display:block;
     font-family: Arial, Helvetica, sans-serif;
@@ -300,8 +300,6 @@ nav a:hover {
     font-style: normal;
     font-size: 15px;
 }
-
-
 
 /* ####################################################### */
 
