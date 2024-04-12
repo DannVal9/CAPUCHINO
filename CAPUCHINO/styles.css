@@ -8,7 +8,7 @@
 
 body {
     color: #ffffff;
-    max-width: 1200px;
+    min-width: 100vh;
     margin: 0 auto;
     background-color: #2d043a;
 }
@@ -203,13 +203,20 @@ header h1 {
 
 .titulo1 
 {
+    font-size: 40px;
     text-align: center;
     padding: 10px 0px;
+    margin: 0;
 }
 
 .titulo1 .highlight 
 {
     color: #BEA0FF; 
+}
+
+.partem1-1{
+    width: 78%;
+    margin-left: 10%;
 }
 
 .boton {
@@ -258,10 +265,10 @@ header h1 {
 
 .partem2-izq
 {
-    width: 40%;
+    width: 35%;
     height: 400px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 5%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -280,13 +287,16 @@ header h1 {
 
 .parrafo1
 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
     font-size: 20px;
     text-align: left;
     padding: 0px 30px;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 .boton2 {
+    margin-top: 10px;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -306,7 +316,7 @@ header h1 {
     width: 23%;
     height: 450px;
     margin-top: -420px;
-    margin-left: 520px;
+    margin-left: 45%;
 }
 
 .img{
@@ -320,7 +330,7 @@ header h1 {
     width: 23%;
     height: 450px;
     margin-top: -440px;
-    margin-left: 850px;
+    margin-left: 72%;
 }
 
 .circle{
@@ -356,6 +366,7 @@ h2{
 
 h3{
     font-size: 15px;
+    font-weight: normal;
 }
 
 .part1, .part2, .part3, .part4
@@ -371,7 +382,6 @@ h3{
     padding: 10px;
 }
 
-
 /* ####################################################### */
 
 .partem3
@@ -385,14 +395,15 @@ h3{
     display: flex;
     justify-content: center; 
     font-size: 35px;
+    margin-bottom: 40px;
 }
 
 .partem3-izq
 {
     background-color: #381D74;
-    width: 53%;
+    width: 48%;
     height: 250px;
-    margin-left: 50px;
+    margin-left: 85px;
     border-radius: 20px;
 }
 
@@ -417,10 +428,13 @@ h3{
 .txt2 h2{
     font-weight: bold;
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .txt2 h3{
     font-size: 12px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .img3{
@@ -439,6 +453,8 @@ h3{
 
 .parrafo2
 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
     font-size: 15px;
     text-align: left;
     padding: 0px 30px;
@@ -456,7 +472,7 @@ h3{
 
 .partem3-der
 {
-    width: 35%;
+    width: 28%;
     height: 250px;
     margin-top: -250px;
     margin-left: 60%;
@@ -465,52 +481,35 @@ h3{
 
 .img4{
     position: absolute;
-    height: 100px;
-    margin-top: 20px;
-    margin-left: 45px;
+    height: 120px;
+    margin-top: -10px;
+    margin-left: 20px;
 }
 
 .img5{
     position: absolute;
-    height: 110px;
-    margin-top: 80px;
-    margin-left: 155px;
+    height: 130px;
+    margin-top: 60px;
+    margin-left: 150px;
 }
 
 .img6{
     position: absolute;
-    height: 70px;
-    margin-top: 130px;
-    margin-left: 65px;
+    height: 90px;
+    margin-top: 160px;
+    margin-left: 55px;
 }
 
 .img7{
     position: absolute;
-    height: 75px;
-    margin-top: 160px;
-    margin-left: 275px;
+    height: 95px;
+    margin-top: 150px;
+    margin-left: 300px;
 }
 
 .img8{
     position: absolute;
-    height: 60px;
-    margin-top: 40px;
-    margin-left: 285px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 300px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-  
- 
-  
-  
- 
