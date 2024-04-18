@@ -7,21 +7,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
-    <div class="imgS">
+    <div class="imagS">
         <img src="imagenes/figura2.png" >
     </div>
 
+    <div class="atras">
+        <input type="button" class="backS" value="←" >
+    </div>
+
     <div class="recup">
-        <form class="formu">
-            <h2> ¿Has olvidado tu Contraseña? </h2>
+        <form class="formu" method="post">
+            <h1> ¿Has olvidado tu Contraseña? </h1>
             <div class="datosS">
-                <label>Ingrese su correo electronico</label>
-                <input type="email" required>
+                <h3>Ingrese su correo electrónico: </h3>
+                <input type="email" class="correoS" placeholder="  Email" required="Email" name="correoS">
             </div>
             <div class="botonS">
-                <input type="submit" value="Reestablecer Contraseña">
+                <input type="submit" class="envioS" value="Reestablecer Contraseña" name="envioS">
+                <h4> ó <a href="">inicio de sesión</a> </h4>
             </div>
         </form>
+        <img src="imagenes/figura.png" alt="">
     </div>
 </body>
 </html>
