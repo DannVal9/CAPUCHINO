@@ -948,6 +948,7 @@ h3{
     margin-top: 5px;
     margin-bottom: -30px;
     font-weight: 600;
+    color: #000;
 }
 .back{
     width:3.5%;
@@ -961,28 +962,33 @@ h3{
     margin-left: 30px;
     margin-top: 5px;
     overflow:visible;
+    cursor: pointer;
 }
 .form_title{
 font-size: 2rem;
 margin-bottom: -30px;
 margin-top: 20px;
+color: #000000;
 }
 .form_title2{
     font-size: 2rem;
     margin-bottom: -30px;
     margin-top: 20px;
     margin-left: -10px;
+    color: #000000;
 }
 .form_paragraph{
 
     font-weight: 300;
     margin-left: -45px;
+    color: #000;
 }
 .form_paragraph2{
 
     font-weight: 300;
     margin-left: -45px;
     margin-top: -40px;
+    color: #000;
 }
 
 .form_link{
@@ -1020,11 +1026,13 @@ margin-top: 20px;
     font-weight: 200px;
     margin-left: 60px;
     margin-top: -45px;
+    color: #000;
 }
 .form_group h4{
     font-size: 15px;
     font-weight: 200px;
     margin-left: 50px;
+    color: #000;
 }
 .form_input{
     width: 75%;
