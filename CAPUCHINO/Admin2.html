@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Perfil Administrador</title>
+    <link rel="stylesheet" href="Style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="cuerpo">
+        <div class="izq">
+            <a href="Admin1.html" class="tit"><h1 class="titulo">DASEAN ACADEMYC</h1></a>
+            <a href="Admin1.html" class="boton"><i class="fa-solid fa-house-user icons1"></i>Perfil</a>
+            <a href="Admin2.html" class="boton"><i class="fa-solid fa-circle-dot icons1"></i>Iniciar Live</a>
+            <a href="Admin3.html" class="boton"><i class="fa-regular fa-circle-up icons1"></i>Subir Curso</a>
+            <a href="Admin4.html" class="boton2">Cerrar Sesion</a>
+        </div>
+
+        <div class="der">
+            <div class="arriba">
+                <div class="der-izq">
+                    <h1 class="titulo2">Inicia un Live</h1>
+                </div>
+                <div class="der-der">
+                    <a href="Home.html" class="tit"><i class="fa-regular fa-comments icons2"></i></a>
+                    <a href="Home.html" class="tit"><i class="fa-solid fa-gear icons2"></i></a>
+                </div>
+            </div>
+
+            <div class="abajo">
+                <input class="live" type="text" id="tituloLive" placeholder="Título para el Live">
+                <textarea class="descp" id="descripcion" placeholder="Agrega una descripción"></textarea>
+                <select class="categoria">
+                    <option value="" disabled selected>Categoría</option>
+                    <option value="categoria 2">Ingeneria Informatica</option>
+                    <option value="categoria 3">Diseño Visual</option>
+                    <option value="categoria 4">Administracion de Empresas</option>
+                    <option value="categoria 5">Contaduria Publica</option>
+                </select>
+                
+                <h1 class="fecha"><i class="fa-solid fa-calendar-days icons3"></i>Programar live:</h1>
+                <input class="fecha2" type="datetime-local" id="fechaHora" name="fechaHora">
+
+                <button class="cam" id="probarCamara">Probar Cámara</button>
+                <div id="contenedorVideo" class="oculto">
+                    <video id="video" autoplay></video>
+                </div>    
+                <button class="apagar" id="apagarCamara" style="display: none;">Apagar Cámara</button>
+                <script src="Script1.js"></script>
+
+                <button class="micro" id="pruebaMicrofono">Probar Micrófono</button>
+                <div id="contenedorMicrofono" style="display:none;">
+                    <div id="nivelAudio"></div>
+                </div> 
+                <button class="apagar" id="apagarMicrofono" style="display: none;">Apagar Micrófono</button>
+                <script src="Script2.js"></script>
+
+
+                <button class="pantalla" id="botonCompartir">Probar Pantalla</button>
+                <div id="contenedorPantalla" style="display: none;" >
+                    <video id="pantallaCompartida" autoplay></video>
+                </div>
+                <button class="apagar" id="botonDejarCompartir" style="display: none;">Dejar de Compartir</button>
+                <script src="Script3.js"></script>
+
+                <a href="Admin2.html" class="boton3">Transmitir</a>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
