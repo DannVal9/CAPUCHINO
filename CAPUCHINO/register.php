@@ -9,7 +9,6 @@
 </head>
 
 <body>
-	
 	<div class="imagD">
 		<img src="images/imgD2.jpg" /> 
 	</div>
