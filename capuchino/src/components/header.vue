@@ -9,7 +9,7 @@
             <div class="barra"> 
             <a href="#">Inicio</a>
             <a href="#">Administrador</a>
-            <a href="#">Cursos</a>
+            <router-link to="/cursos1"><a href="#">Cursos</a></router-link>
             <a href="#">Lives</a>
             <a href="#">Contáctanos</a>
             <router-link class="button" type="submit" to="/login">Ingresar</router-link>
